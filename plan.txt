@@ -7,7 +7,9 @@ Eingangsseite:
 Abfrage_Zugangscode
   - Feld "Zugangscode" und Submit-Button 
       -> Überprüfungs Zugangscode
-           - falls Zugangscode 12-stellig (Arm A) -> Infoseite mit Anleitungsvideo
+           - falls Zugangscode 12-stellig (Arm A) 
+               - keine Überprüfung des Zugangscodes nötig, daher stets
+               -> Infoseite mit Anleitungsvideo
            - falls Zugansgcode 10-stellig (Arm B):
                 - Nachschlagen in eigener Datenbank, ob Zugangscode existiert
                      - nein: Fehlermeldung ("Vielleicht haben Sie sich vertippt?"
@@ -27,14 +29,14 @@ Infoseite mit Anleitungsvideo
 Gesundheits-Fragebogen (Vorschalt-Seite):
   - Aufklärungstext und Einwilligungs-Button -> Fragebogen (Hauptseite)  
 
-
 Gesundheits-Fragebogen (Hauptseite):
   - Frage nach Namen
   - viele Gesundheitsfragen
   - Submit-Button
-  -> Daten werden gespeichert 
+  -> Daten werden gespeichert, zusammen mit 10-stelligem Zugangscode
        - Danke, wir melden uns und schicken ihnen ggf. ein Testkit zu
-           oder, falls Instantane Auswertung, sofortige Anzeige -> Danke, wir schicken Ihnen ein Testkit *oder*, nein schicken wir nicht
+           oder, falls instantane Auswertung implementiert, sofortige Anzeige 
+             -> Danke, wir schicken Ihnen ein Testkit *oder*, nein schicken wir nicht
        - falls B2: Gibt es noch mehr Personen in Ihrem Haushalt? Bitte diese auch Fragebogen ausfüllen lassen
 
 
@@ -48,7 +50,7 @@ Seite "mein Ergebnis abfragen":
          - Gesundheitsfragebogen negativ: Sorry, wir schicken Ihnen kein Testkit
          - unbekannter Code: Fehlermeldung und Hinweis: "Falls Sie uns schon eine Probe geschickt haben, geben Sie den 12-stelligen Code aus dem Kit an"
      - weder 12- noch 10-stellig:
-         - Erklärung das der Code 10 oder 12-stellig ist
+         - Erklärung dass der Code 10 oder 12-stellig ist
 
 
 
