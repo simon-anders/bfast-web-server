@@ -1,0 +1,67 @@
+Eingangsseite:
+  - Button: an der Studie teilnehmen    -> Abfrage_Zugangscode
+  - Button: mein Ergebnis abfragen
+  - Button: mehr über Studie erfahren
+
+
+Abfrage_Zugangscode
+  - Feld "Zugangscode" und Submit-Button 
+      -> Überprüfungs Zugangscode
+           - falls Zugangscode 12-stellig (Arm A) -> Infoseite mit Anleitungsvideo
+           - falls Zugansgcode 10-stellig (Arm B):
+                - Nachschlagen in eigener Datenbank, ob Zugangscode existiert
+                     - nein: Fehlermeldung ("Vielleicht haben Sie sich vertippt?"
+                     - ja: Annzeige Gesundheits-Fragebogen (Vorschaltseite)
+  - Link "Ich habe keinen Zugangscode erhalten"  -> kein_Zuganscode_erhalten
+
+
+kein_Zuganscode_erhalten
+  - "Sorry, es können nur Personen teilnehmen, die zufällig ausgwählt wurden und einen Zugangscode per Post erhalten haben"
+
+
+Infoseite mit Anleitungsvideo
+  - Link zum ausführlichen Informationstext
+  - Frame mit Anleitungs-Video (oder Anletunsg-Cartoon)
+
+
+Gesundheits-Fragebogen (Vorschalt-Seite):
+  - Aufklärungstext und Einwilligungs-Button -> Fragebogen (Hauptseite)  
+
+
+Gesundheits-Fragebogen (Hauptseite):
+  - Frage nach Namen
+  - viele Gesundheitsfragen
+  - Submit-Button
+  -> Daten werden gespeichert 
+       - Danke, wir melden uns und schicken ihnen ggf. ein Testkit zu
+           oder, falls Instantane Auswertung, sofortige Anzeige -> Danke, wir schicken Ihnen ein Testkit *oder*, nein schicken wir nicht
+       - falls B2: Gibt es noch mehr Personen in Ihrem Haushalt? Bitte diese auch Fragebogen ausfüllen lassen
+
+
+Seite "mein Ergebnis abfragen":
+  - Abfrage Zugangscode
+     - Nutzer gibt 12-stelligen Zugangscode ein:
+         -> BFAST-Server stellt API-Anfrage an LAMP-Server, um Testergebnis zu erfahren
+         -> Anzeige Testergebnis (oder Fehlermeldung falls LAMP-Server den Zugansgcode nicht kennt)
+     - Nutzer gibt 10-stelligen Zugangscode ein: Anzeige von
+         - Gesundheitsfragebogen positiv: ein Testkit ist auf dem Weg zu Ihnen
+         - Gesundheitsfragebogen negativ: Sorry, wir schicken Ihnen kein Testkit
+         - unbekannter Code: Fehlermeldung und Hinweis: "Falls Sie uns schon eine Probe geschickt haben, geben Sie den 12-stelligen Code aus dem Kit an"
+     - weder 12- noch 10-stellig:
+         - Erklärung das der Code 10 oder 12-stellig ist
+
+
+
+Allgemeine Infoseite
+
+
+Impressum
+
+
+
+Auf B-FAST-Server:
+ - Liste aller 10-stelligen Zugangscodes für Arm B1 und B2, mit Angabe ob B1 oder B2
+ - Tabelle, um Fragebogen-Ergebnisse zu speichern
+
+für Ergebnis-Abfrage:
+ - keine eigenen Daten, sondern API-Anfrage an LAMP-Server
