@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zugangscode</title>
+</head>
+
+<body>
+  <main class="page-content">
+    <div id="form" class="container2 content">
+      <form name="access_code" id="access_code" onsubmit="check_len()">
+        <h1>Bitte geben Sie den Code auf Ihrem Proben-Roehrchen an:</h1>
+        <hr>
+        <div class="form-group bmd-form-group">
+          <label for="acode">Code auf dem Röhrchen</label>
+          <input type="text" id="acode" name="acode" required>
+        </div>
+      </form>
+      #10 oder 12 stelligen code eingeben
+      <p>
+        <a href="no_access_code.html" class="button">Ich habe kein Zugangscode ehalten</a>
+      </p>
+    </div>
+  </main>
+</body>
+<script>
+  function check_len() {
+    var acode = document.getElementById('acode').value;
+    if (acode.length == 12) {
+      document.getElementById("access_code").action = "instructions.html";
+    } else if (acode.length == 10) {
+      document.getElementById("access_code").action = "questionnaire_landing.html";
+    } else {
+      document.getElementById("access_code").action = "code-unknown.html";
+    }
+  } 
+</script>
+
+</html>
