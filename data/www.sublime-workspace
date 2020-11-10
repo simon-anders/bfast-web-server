@@ -1,0 +1,657 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rs",
+				"rsa_instance_from_key"
+			],
+			[
+				"sample_",
+				"sample_data"
+			],
+			[
+				"sampl",
+				"sample_barcode"
+			],
+			[
+				"encr",
+				"encrypted_session_key"
+			],
+			[
+				"con",
+				"contact_encrypted"
+			],
+			[
+				"name",
+				"name_encrypted"
+			],
+			[
+				"sample",
+				"sample_ids"
+			],
+			[
+				"uplo",
+				"upload_sample"
+			],
+			[
+				"upload",
+				"upload_item"
+			],
+			[
+				"upl",
+				"upload_item"
+			],
+			[
+				"co",
+				"code_batches"
+			],
+			[
+				"ke",
+				"key_id"
+			],
+			[
+				"gri",
+				"gridpos_y"
+			],
+			[
+				"grd",
+				"grid_col"
+			],
+			[
+				"test",
+				"test-result-negative"
+			],
+			[
+				"pub",
+				"publickey"
+			],
+			[
+				"sta",
+				"start_response"
+			],
+			[
+				"yam",
+				"yaml_content"
+			],
+			[
+				"public",
+				"public_key_fingerprint"
+			],
+			[
+				"encode",
+				"encode_subject_data"
+			],
+			[
+				"publ",
+				"public_key_fingerprint"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"aes",
+				"aes_instance"
+			],
+			[
+				"subje",
+				"subject_data"
+			],
+			[
+				"session",
+				"session_key"
+			],
+			[
+				"encrypted",
+				"encrypted_session_key"
+			],
+			[
+				"enc",
+				"encrypted_subject_data"
+			],
+			[
+				"found",
+				"found_hash"
+			],
+			[
+				"hashed",
+				"hashes_found"
+			],
+			[
+				"password",
+				"password_hash"
+			],
+			[
+				"pass",
+				"passphrase_repeat"
+			],
+			[
+				"has",
+				"hashed_user_password"
+			],
+			[
+				"encyt",
+				"encrypted_subject_data"
+			],
+			[
+				"plate",
+				"plate_name"
+			],
+			[
+				"pla",
+				"plate_name"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"margn",
+				"margin-top\tproperty"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"padding-",
+				"padding-right\tproperty"
+			],
+			[
+				"next",
+				"next_well"
+			],
+			[
+				"current",
+				"current_well"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"d",
+				"dotted\tborder-style"
+			],
+			[
+				"s",
+				"sans-serif\tfont"
+			],
+			[
+				"well",
+				"well_idx"
+			],
+			[
+				"selec",
+				"selected_well"
+			],
+			[
+				"wel",
+				"well_size"
+			],
+			[
+				"select",
+				"selectAll"
+			],
+			[
+				"sel",
+				"select_well"
+			],
+			[
+				"row",
+				"row_label"
+			],
+			[
+				"align-",
+				"align-items\tproperty"
+			],
+			[
+				"grid-",
+				"grid-column\tproperty"
+			],
+			[
+				"backgro",
+				"background-color\tproperty"
+			],
+			[
+				"table_",
+				"table_rows"
+			],
+			[
+				"border",
+				"border-bottom\tproperty"
+			],
+			[
+				"paddi",
+				"padding-bottom\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"curren",
+				"current_well"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"covid",
+				"covid_de"
+			],
+			[
+				"cov",
+				"covid_plotly"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"padd",
+				"padding-right\tproperty"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"rename",
+				"Rename File"
+			],
+			[
+				"csv",
+				"Rainbow CSV Settings"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"commi",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git comm",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"Package Control: packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"com",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"comm",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"commit cu",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"quick c",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"quick comm",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"quick co",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"commit curr",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				" qui",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"termin",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 202.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/anders/tmp/generate_access_codes.py",
+		"/home/anders/w/repos/covid-test-web-site/covidtest/app/views_public.py",
+		"/home/anders/w/repos/covid-test-web-site/covidtest/app/views_api.py",
+		"/home/anders/w/repos/covid-test-web-site/covidtest/app/admin.py",
+		"/home/anders/tmp/Vl_DatenAnalyse.shtml",
+		"/home/anders/w/repos/covid-test-web-site/covidtest/app/encryption_helper.py",
+		"/home/anders/w/repos/covid-test-web-site/covidtest/covidtest/settings.py",
+		"/home/anders/w/repos/covid-test-web-site/requirements.txt",
+		"/home/anders/w/repos/covid-test-web-site/covidtest/app/urls.py",
+		"/home/anders/w/repos/covid-test-web-site/covidtest/app/serializers.py",
+		"/home/anders/w/repos/covid-test-web-site/covidtest/app/models.py",
+		"/home/anders/tmp/wiztest.py",
+		"/home/anders/tmp/draft_decrypt_page.txt",
+		"/home/anders/w/repos/covid-test-web-site/helper/migration_from_old_server/migrate.py",
+		"/home/anders/w/repos/covid-test-web-site/covidtest/app/views.py",
+		"/home/anders/w/repos/covid-test-web-site/helper/import_legacy_data.py",
+		"/home/anders/w/repos/pool_barcodes_qpcr/pool_barcodes_pdf_maker.py",
+		"/home/anders/w/repos/covid-test-web-site_production/static/de/information-text.html",
+		"/home/anders/w/repos/lc-paper/migration_to_access_codes.md",
+		"/home/anders/w/repos/lc-paper/lc.tex",
+		"/home/anders/w/repos/covid-test-web-site/doc/migration_plan.md",
+		"/home/anders/w/repos/bfast/barcoding_schemes.md",
+		"/home/anders/w/repos/covid-test-web-site/static/de/no-result.html",
+		"/home/anders/w/repos/covid-test-web-site/static/overview.html",
+		"/home/anders/w/repos/covid-test-web-site/static/de/test-result-negative.html",
+		"/home/anders/w/repos/covid-test-web-site/static/de/test-result-probpos.html",
+		"/home/anders/w/repos/covid-test-web-site/static/de/test-result-positive.html",
+		"/home/anders/w/repos/covid-test-web-site/static/de/to-be-determined.html",
+		"/home/anders/w/repos/covid-test-web-site/static/de/form.html",
+		"/home/anders/w/repos/covid-test-web-site/etc/covid-test.nginx-site-config",
+		"/home/anders/tmp/Ablauf.md",
+		"/home/anders/w/repos/covid-test-web-site/scripts/fcgi_service.py",
+		"/home/anders/Downloads/ZST00021.txt",
+		"/home/anders/w/repos/lamp_analysis/first_try.R",
+		"/home/anders/w/reviews/Cap-LAMP.txt",
+		"/home/anders/tmp/tes.prn",
+		"/home/anders/tmp/test.prn",
+		"/home/anders/w/repos/covid-test-web-site/static/en/footer-index.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/header-index.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/consent.html",
+		"/home/anders/w/repos/covid-test-web-site/doc/tests_for_quarantined_people.md",
+		"/home/anders/w/repos/covid-test-web-site/scripts/decrypt_data.py",
+		"/home/anders/w/repos/covid-test-web-site/static/main_style.css",
+		"/home/anders/w/repos/covid-test-web-site/static/de/header.html",
+		"/home/anders/w/repos/covid-test-web-site/static/de/index.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/index.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/information.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/information-text.html",
+		"/home/anders/w/repos/covid-test-web-site/scripts/generate_keypair.py",
+		"/home/anders/w/repos/covid-test-web-site/static/en/footer-new.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/footer-page.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/form.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/header-page.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/impressum.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/no-result.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/instructions.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/no-tube.html",
+		"/home/anders/w/repos/covid-test-web-site/static/de/instructions.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/result-query.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/test-result-negative.html",
+		"/home/anders/w/repos/covid-test-web-site/static/en/test-result-positive.html",
+		"/home/anders/w/repos/covid-test-web-site/static/index.html",
+		"/home/anders/w/repos/covid-test-web-site/static/de/consent.html",
+		"/home/anders/w/repos/covid-test-web-site/static/de/impressum.html",
+		"/home/anders/w/repos/covid-test-web-site/static/de/information.html",
+		"/home/anders/w/repos/covid-test-web-site/static/de/information-text.html",
+		"/home/anders/w/repos/covid-test-web-site/static/de/instruction.html",
+		"/home/anders/w/repos/covid-test-web-site/static/de/no-tube.html",
+		"/home/anders/w/repos/covid-test-web-site/static/de/result-query.html",
+		"/home/anders/w/repos/covid-test-web-site/crypto_test/subject_data_file_format.txt",
+		"/home/anders/w/repos/covid-test-web-site/crypto_test/get_fingerprint.py",
+		"/home/anders/w/repos/covid-test-web-site/crypto_test/write_data.py",
+		"/home/anders/w/repos/covid-test-web-site/data/events.yaml",
+		"/home/anders/w/repos/covid-test-web-site/static/instruction-de.html",
+		"/home/anders/w/repos/covid-test-web-site/scripts/load_codes.py",
+		"/home/anders/w/repos/covid-test-web-site/static/index-en.html",
+		"/home/anders/w/repos/covid-test-web-site/static/information-text-de.html",
+		"/home/anders/w/repos/covid-test-web-site/crypto_test/check_user_password.py",
+		"/home/anders/w/repos/covid-test-web-site/static/test-result-positive-en.html",
+		"/home/anders/w/repos/covid-test-web-site/crypto_test/decrypt_data.py",
+		"/home/anders/w/repos/covid-test-web-site/static/result-query-de.html",
+		"/home/anders/w/repos/covid-test-web-site/static/form-de.html",
+		"/home/anders/.local/lib/python3.6/site-packages/flup/server/fcgi.py",
+		"/home/anders/w/repos/covid-test-web-site/data/code_batches/batch_A_3.lst",
+		"/home/anders/w/repos/covid-test-web-site/data/code_batches/batch_A_4.lst",
+		"/home/anders/w/repos/covid-test-web-site/data/events.txt",
+		"/home/anders/w/repos/covid-test-web-site/data/return_instructions.txt",
+		"/home/anders/w/repos/covid-test-web-site/data/code_batches/batch_2.lst",
+		"/home/anders/w/repos/covid-test-web-site/data/code_batches/batch_1.lst",
+		"/home/anders/w/repos/covid-test-web-site/static/consent-de.html",
+		"/home/anders/w/repos/covid-test-web-site/static/information-de.html",
+		"/home/anders/w/repos/covid-test-web-site/crypto_test/generate_keypair.py",
+		"/home/anders/.local/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/rsa.py",
+		"/home/anders/.local/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/backend.py",
+		"/home/anders/w/repos/covid-test-web-site/overview.md",
+		"/home/anders/tmp/foo",
+		"/var/www/test_foo/scripts/test.py",
+		"/home/anders/w/repos/covid-test-web-site/data/groups/schule_2.txt",
+		"/home/anders/tmp/cryptotest/decode_data.py",
+		"/home/anders/w/reviews/dream_2.txt",
+		"/home/anders/w/repos/covid-test-web-site/crypto_test/public.pem",
+		"/home/anders/w/repos/covid-test-web-site/crypto_test/private.pem",
+		"/home/anders/tmp/cryptotest/write_data.py",
+		"/home/anders/tmp/cryptotest/make_keys.py",
+		"/home/anders/tmp/print_file.ipp",
+		"/home/anders/tmp/covid-test-web-site/overview.md",
+		"/home/anders/bin/sds_papagei",
+		"/home/anders/bin/sds",
+		"/home/anders/.cache/.fr-BuRe14/Taheri_Fereydoon_Recruiting_Task.ipynb",
+		"/home/anders/tmp/ala_condensed.txt",
+		"/home/anders/.local/share/gnome-shell/extensions/system-monitor@paradoxxx.zero.gmail.com/extension.js",
+		"/home/anders/w/reviews/microwell-lamp.txt",
+		"/home/anders/tmp/momokmer.py",
+		"/home/anders/tmp/a/homokmer.py",
+		"/home/anders/w/repos/LAMP-Paper-Figures/Figure_S3N2.R",
+		"/home/anders/w/repos/LAMP-Paper-Figures/Figure_S3bis.R",
+		"/home/anders/w/repos/LAMP-Paper-Figures/Figure_S3N1.R",
+		"/home/anders/w/repos/LAMP-Paper-Figures/Figure_S3.R",
+		"/home/anders/w/repos/LAMP-Paper-Figures/Figure_S3_Simon.R",
+		"/home/anders/tmp/ala.py",
+		"/home/anders/tmp/a.py",
+		"/home/anders/w/repos/proDA-Paper-TexRepo/main.tex",
+		"/home/anders/tmp/demo1.py",
+		"/home/anders/w/reviews/dream.txt",
+		"/home/anders/w/repos/LAMP-Paper-Figures/x/paper.tex",
+		"/home/anders/w/repos/well_highlighter/style.css",
+		"/home/anders/w/repos/well_highlighter/jqtest.html",
+		"/home/anders/w/repos/well_highlighter/d3.v5.min.js"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 103.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "www.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

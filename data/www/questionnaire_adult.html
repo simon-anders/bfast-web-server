@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fragebogen</title>
+</head>
+
+<body>
+  <h2>Fragebogen</h2>
+  Version für Erwachsene<br>
+
+  Danke für Ihre Bereitschaft, und bei unserer Studie zu unterstützen. Bitte füllen Sie diesen Fragebogen zu Ihrem aktuellen Befinden aus:
+
+  <h3>Kontaktdaten</h3>
+  Ihren Namen und Ihre Post-Adresse kennen wir ja schon. Damit wir Sie einfacher kontaktieren können, teilen Sie uns bitte noch mit:
+  <ul>
+    <li>Ihre Email-Adresse: <input type="text"></li>
+    <li>Ihre Telefonnummer: <input type="text"></li>
+  </ul>
+
+  <h3>Ihr Befinden</h3>
+  <ul>
+    <li>Haben Sie Halsschmerzen? <input type="radio">Ja <input type="radio">Nein </li>
+    <li>Haben Sie Fieber? <input type="radio">Ja <input type="radio">Nein </li>
+    <li>Haben Sie Ihren Geruchssinn verloren? <input type="radio">Ja <input type="radio">Nein </li>
+    <li>...
+  </ul>
+
+  <h3>Ihr Einverständnis</h3>
+  Bitte lesen Sie den folgenden Informationstext durch, und klicken Sie dann untren an ob Sie einverstanden sind.
+  <div style="border-style:dashed;width:300px">
+    ... Text ...<br>
+    ... Text ...<br>
+    ... Text ...<br>
+  </div>
+  <input type="checkbox">Ich habe den informationstext gelesen und bin einverstanden<br>
+  <br>
+  <input type="button" value="Antworten absenden"> <input type="button" value="Abbrechen">
+
+<hr>
+Wie wir von hier weiter leiten, kommt darauf an, ob wir online auswerten
+<ul>
+  <li>Auswertung erfolgt automatisch und Ergebnis steht sofort zur Verfügung:
+    <ul>
+      <li> <a href="questionnaire_end_pos.html">Fragebogen-Score über Schwellwert</a></li>
+      <li> <a href="questionnaire_end_neg.html">Fragebogen-Score nicht Schwellwert</a></li>
+    </ul>
+  </li>
+  <li>Sonst müssen wir die Teilnehmer vertrösten:
+    <ul>
+      <li> <a href="questionnaire_end_thx.html">Seite mit Dank und "Wir melden uns"</a></li>
+    </ul>
+  </div>
+</body>
+
+</html>

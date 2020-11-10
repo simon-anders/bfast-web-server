@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ergebnis abfragen</title>
+</head>
+
+<body>
+  <main class="page-content">
+    <form id="access_code" action="" onsubmit="check_len()">
+      <h1>Hier können Sie das Ergebnis Ihres Tests abfragen</h1>
+      <hr>
+      <div class="form-group">
+        <label for="acode">Ihr Zugangscode: </label>
+        <input type="text" name="acode" id="acode" required>
+      </div>
+
+      <div>
+        <a href="index.html" id="closeform" class="button-small">Zurück</a>
+        <button type="submit" class="button-small">Ergebnis anzeigen</button>
+      </div>
+    </form>
+  </main>
+  <br>
+<hr>
+  <ul>
+    <li>
+      Falls der Nutzer einen gültigen 12-stelligen Code eingegeben hat (Proben-Zugangscode), wird eine der folgenden Seiten angezeigt:
+      <ul>
+        <li>Probe ist noch nicht im Labor eingegangen</li>
+        <li>Probe ist eingegangen aber Analyse ist noch nicht fertig</li>
+        <li>Ergebnis ist negativ.</li>
+        <li>Ergebnis ist positiv.</li>
+        <li>Test kann nicht ausgewertet werden</li>
+      </ul>
+    </li>
+    <li>
+      Falls der Nutzer einen gültigen 10-stelligen Code eingegeben hat (Fragebogen-Zugangscode), wird eine der folgenden Seiten angezeigt:
+      <ul>
+        <li>Fragebogen wurde noch nicht ausgefüllt.</li>
+        <li>Fragebogen wurde noch nicht ausgewertet. (Nur falls keine online-Auswertung)</li>
+        <li>Fragebogen war unter Schwellwert: Es wird kein Testkit versandt.</li>
+        <li>Fragebogen war über Schwellwert, und ein Testkit wird versandt / ist auf dem Weg. (Mit Anmerkung: Falls Sie ein Test-Ergebnis abfragen wollen, geben Sie den 12-stelligen Code ein, der im Anschreiben mti dem Test-Kit stand.</li>
+      </ul>
+    </li>
+    <li>Andernfalls: Anzeige fehlermeldung ungültiger Code mit Erläuterung dass der </li>
+  </ul>
+  Alle diese Seiten haben daselbe Layout: Ausgabe des Texts, keine weiterführenden Links, lediglich die Links in Kopf und Fuss, die wir immer haben
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zugangscode</title>
+</head>
+
+<body>
+  <main class="page-content">
+    <div id="form" class="container2 content">
+      <form name="access_code" id="access_code">
+        <h2>Zugang für Teilnehmer an der B-FAST-Studie</h2>
+        Bitte geben Sie den Zugangscode ein, den Sie recht oben in rot auf dem Anschreiben finden:
+        <div class="form-group bmd-form-group">
+          <label for="acode">Zugangscode</label>
+          <input type="text" id="acode" name="acode" required>
+          <input type="submit" value="Abschicken">
+        </div>
+      </form>
+      <p>
+        <a href="no_access_code.html" class="button">Ich habe kein Zugangscode ehalten</a>
+      </p>
+    </div>
+  </main>
+
+  <hr>
+  Seiten-Flow: Diese Seite verzweigt auf die folgenden Seiten:
+  <ul>
+    <li>falls ein (beliebiger) 12-stelliger Zugangscode (Arm A) eingegeben wird: 
+      <ul><li><a href="instructions.html">Anleitungs-Seite mit Video</a></li></ul></li>
+    <li>falls ein gültiger 10-stelliger Zugangscode (Arm B) eingegeben wird, wird das Alter der Person, der dieser Zugangscode zugeordnet ist, in der DFatenbank nachgeschlagen, und eine der folgenden Seiten angezeigt:
+    <ul>
+      <li><a href="questionnaire_adult.html">Fragebogen für Erwachsene</a></li>
+      <li><a href="questionnaire_adolescent.html">Fragebogen für Jugendliche</a></li>
+      <li><a href="questionnaire_child.html">Fragebogen für Kinder</a></li>
+    </ul>
+    <li>andernfalls: 
+      <ul><li><a href="code-unknown.html">Fehlermeldung, dass Code unbekannt ist</a></li></ul></li>
+  </ul>
+
+</body>
+
+</html>
